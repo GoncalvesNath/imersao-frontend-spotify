@@ -1,0 +1,9 @@
+# Common build subdirectories.
+.build/
+_build/
+
+# Visual Studio Code
+/.vscode/
+
+# Ignore GHA NodeJS files
+node_modules
