@@ -139,22 +139,28 @@ body {
     width: 113px;
 }
 
-.sidebar .cookies {
-    margin: 25px 20px;
-
-}
-
-.sidebar .cookies a {
-    color: #b3b3b3;
+.sidebar .cookies .cookies__links a{
+    color: var(--fc-offset);
     font-weight: 500;
     font-size: 9px;
     text-decoration: none;
-    line-height: 2.5em;
-    
+    margin: 2px 2px;
 }
 
-.sidebar .cookies a:hover {
-    text-decoration: solid;
+.sidebar .cookies .cookies__links{
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.sidebar .cookies .cookies__links .cookies a{
+    font-size: var(--font-size-main);
+}
+
+.sidebar .cookies .cookies__links a:hover{
+    text-decoration: underline;
     color: #1FDD65;
 }
 
